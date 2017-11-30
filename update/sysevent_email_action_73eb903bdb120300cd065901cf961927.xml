@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_58872_needit_needit_task</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_58872_needit.overdueNeedItTask</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Dear: ${assigned_to.first_name}</p>
+<p>&nbsp;</p>
+<p>An overdue NeedIT Task is assigned to you:</p>
+<p>Number Number: ${number}</p>
+<p>Please complete this task as soon as possible.</p>
+<p>Click here to view the NeedIT Task record: <strong class="ph b" style="box-sizing: border-box; margin: 0px; padding: 0px; font-weight: bold; color: #333333; font-family: 'Gotham SSm A','Gotham SSm B',Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">${URI_REF}</strong>.</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Overdue NeedIt Task</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users>wnewborn@comcast.net</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Overdue NeedIt Task: ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-14 16:15:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73eb903bdb120300cd065901cf961927</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Overdue NeedIt Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_action_73eb903bdb120300cd065901cf961927</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-14 16:33:33</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
